@@ -1,4 +1,4 @@
-# Opis problema in podatkov 
+# Nihanje kirpto valut v korelaciji z objavami na spletu
 Podatkovno rudarjenje
 
 ### 1 Člani
