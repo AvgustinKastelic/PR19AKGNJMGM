@@ -1,5 +1,4 @@
 from textblob import TextBlob
-
 #####
 ##Tukaj se uporablja textblob za analizo besedil
 #####
