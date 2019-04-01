@@ -1,4 +1,4 @@
-# Nihanje kirpto valut v korelaciji z objavami na spletu
+# Nihanje kripto valut v korelaciji z objavami na spletu
 Podatkovno rudarjenje
 
 ### 1 Člani
