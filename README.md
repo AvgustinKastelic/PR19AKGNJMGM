@@ -26,7 +26,7 @@ Iz naloge, bi na koncu radi imeli potrditev, če se je naša hipoteza (da social
 
 Podatke smo črpali iz večih virov. Vzeli smo obdobje med 1.1.2017 in 1.1.2019 saj je to obdobje zaradi cen kriptovalut najbolj zanimivo za našo raziskavo.
 
-1. Objave vplivnih oseb na Twitterju.
+### 1. Objave vplivnih oseb na Twitterju.
 
 S pomočjo twitter API, ki pa žal pri zastonjski verziji seže le do 1. tedna nazaj si nismo mogli pomagati, zato smo napisali program, ki preko query searchi na twitterju bere twitte. Za začetek smo izbrali nekaj prepoznavnejših oseb kot so:
 
@@ -45,11 +45,11 @@ in pa nekaj znanih kripto "exchangov"
 
 Podatke smo zbrali v csv file: username;date;retweets;favorites;text;geo;mentions;hashtags;id;permalink
 
-2. Objave medijev na spletu
+### 2. Objave medijev na spletu
 
 S pomočjo Event Registry smo zbrali podatke in vsebino člankov, ki omenjajo koncept kriptovalut. Zbrali smo 220.000 člankov v 39 jezikih.
 
-3. Podatki o kriptovalutah
+### 3. Podatki o kriptovalutah
 
 Zaenkrat smo se osredotočili na Bitcoin in s pomočjo CryptoCompare API pridobili dnevne podatke v izbranem obdobju o ceni in volumnu. Pridobljene podatke v JSON formatu smo pretvorili v CSV format za lažje branje iz datoteke. Podatki vključujejo:
 
@@ -80,4 +80,17 @@ Cilj: Izboljšanje klasifikatorja.
 
 ## Analize
 
-![alt text] (http://url/to/img.png)
+Frekvenca člankov po dnevih:
+
+![alt text](Slikca_frekvenca_članlov_po_dnevih.png)
+
+Frekvenca objav na Twitterju po dnevih:
+
+![alt text](Frekvenca_tweetov.png)
+
+Cena kriptovalut po dnevih:
+![alt text](Cena.PNG)
+
+## Ugotovitve
+
+Iz trenutnih grafov lahko vidimo, da smo na dobri poti in da najvrjetneje obstaja korelacija med ceno oz. volumnom ter objavami na spletu.
