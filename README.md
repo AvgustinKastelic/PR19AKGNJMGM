@@ -21,7 +21,7 @@ Iz naloge, bi na koncu radi imeli potrditev, če se je naša hipoteza (da social
 
 ## Podatki
 
-Podatke smo črpali iz večih delov. Vzeli smo obdobje med 1.1.2016 in 1.1.2018
+Podatke smo črpali iz večih delov. Vzeli smo obdobje med 1.1.2017 in 1.1.2019
 
 1. Tweeti iz twitterja od vplivnih oseb.
 
