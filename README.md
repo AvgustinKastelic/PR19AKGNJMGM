@@ -3,6 +3,10 @@
 
 Projekt, vsebuje podatke in metode, ki smo jih uporabili, da smo analizerali podatke.
 
+## Člani
+
+Člani skupine smo: Gal Mrvar, Avguštin Kastelic, Gregor Novak, Jure Mohar
+
 ## Cilji
 
 Iz podatkov, bi radi ugotovili, kaj je vplivalo na ceno kriptovalut v preteklosti.
