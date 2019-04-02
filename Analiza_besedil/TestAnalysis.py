@@ -24,21 +24,14 @@ with open('podatki/TestAnalysis/'+fileName, newline='',encoding="utf8") as csvfi
         header+=1;
 #Zakomentirana koda spodaj je samo za kratko analizo oz. testiranje (koliko je poz, neg, neutr twitov)
 correct = 0
-incorrect = 1
+incorrect = 0
+count = 0
 for tweet in tweets:
     sentiment = textBlob.get_txt_sentiment(tweet['text']);
     if(sentiment[0] == tweet['reacton']):
         correct+=1;
     else:
         incorrect+=1
-print("correct: ",correct," incorrect:", incorrect)
-
-
-#V podano datoteko zapiše analizirane podake
-#with open('AnaliziraniPodatki/01.01.2017 - 01.01.2019/'+fileName, newline='', mode='w',encoding="utf8") as file:
-#    file_writer = csv.writer(file, delimiter=';',quotechar='"', quoting=csv.QUOTE_MINIMAL)
-#    file_writer.writerow(['date','retweets','favorites','text','sentiment','polarity','subjectivity'])
-#    for tweet in tweets:
-#        sentiment = textBlob.get_txt_sentiment(tweet['text'])
-#        file_writer.writerow([tweet['date'],tweet['retweets'],tweet["favorites"],tweet["text"],sentiment[0],sentiment[1][0],sentiment[1][1]])
- #   employee_writer.writerow(['John Smith', 'Accounting', 'November'])
+    count+=1
+print("correct: ",correct," incorrect:", incorrect, "All test cases:",count)
+print("result: ", correct/count)
