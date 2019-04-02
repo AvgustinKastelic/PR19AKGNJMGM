@@ -15,6 +15,10 @@ Zanima nas ali na ceno vplivajo:
 * pozitivni / negativni tweeti znanih twitter oseb
 * ali je kakšna povezava med število všečkov, retweetov in ceno?
 
+## Kriterij uspešnost
+
+Iz naloge, bi na koncu radi imeli potrditev, če se je naša hipoteza (da socialna omrežja vplivajo na ceno) potrdila. Zadovoljni bi bili
+
 ## Podatki
 
 Podatke smo črpali iz večih delov. Vzeli smo obdobje med 1.1.2016 in 1.1.2018
