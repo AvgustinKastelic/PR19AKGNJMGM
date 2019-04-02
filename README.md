@@ -40,7 +40,20 @@ in pa nekaj znanih kripto "exchangov"
 * binance
 * bittrex
 
-2. xxxxxxxxx
+2. Podatki o kriptovalutah
+
+Zaenkrat smo se osredotočili na Bitcoin in s pomočjo CryptoCompare API pridobili dnevne podatke v izbranem obdobju o ceni in volumnu. Pridobljene podatke v JSON formatu smo pretvorili v CSV format za lažje branje iz datoteke. Podatki vključujejo:
+
+* čas v obliki timestamp
+* close
+* high
+* low
+* open
+* volumefrom
+* volumeto
+
+Vrednosti so v valuti USD.
+
 3. yyyyyyyyy
 
 ## Analize
