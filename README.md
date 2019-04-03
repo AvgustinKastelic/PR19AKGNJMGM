@@ -20,28 +20,18 @@ Poleg tega pa lahko iščemo tudi druga zanimiva odstopanja v podatkih.
 
 ## Kriterij uspešnost
 
-Iz naloge, bi na koncu radi imeli potrditev, če se je naša hipoteza (da socialna omrežja vplivajo na ceno) potrdila. Zadovoljni bi bili
+Radi bi ovrgli ali potrdili našo hipotezo, da mediji in twitter objave vplivajo na ceno kripto valut.
+
 
 ## Opis podatkov
 
-Podatke smo črpali iz večih virov. Vzeli smo obdobje med 1.1.2017 in 1.1.2019 saj je to obdobje zaradi cen kriptovalut najbolj zanimivo za našo raziskavo.
+Podatke smo črpali iz večih virov. Vzeli smo obdobje med 1.1.2017 in 1.1.2019 saj je to obdobje zaradi cen kriptovalut najbolj zanimivo za našo raziskavo. 
 
 ### 1. Objave vplivnih oseb na Twitterju.
 
-S pomočjo twitter API, ki pa žal pri zastonjski verziji seže le do 1. tedna nazaj si nismo mogli pomagati, zato smo napisali program, ki preko query searchi na twitterju bere twitte. Za začetek smo izbrali nekaj prepoznavnejših oseb kot so:
-
-* vitalikbuterin (začetnik ETH)
-* SatoshiLite (začenik LTC)
-
-pa nekaj znanih novinarjev v kripto družbi
-
-* lopp
-* fluffypony
-
-in pa nekaj znanih kripto "exchangov"
-
-* binance
-* bittrex
+Najprej smo poskusili s twitter API-jem, a brez doplačila seže le en teden nazaj.
+Zato smo napisali program, ki preko query search-ov na twitterju bere twitte.
+Za začetek smo zbrali twitter objave nekaj najbolj vplivnih twitter računov na območju kriptovalut.
 
 Podatke smo zbrali v csv file: username;date;retweets;favorites;text;geo;mentions;hashtags;id;permalink
 
