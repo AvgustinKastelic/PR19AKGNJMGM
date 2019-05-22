@@ -23,17 +23,37 @@ with open('podatki/TestAnalysis/'+fileName, newline='',encoding="utf8") as csvfi
                 print("exception wrong data type")
         header+=1;
 #Zakomentirana koda spodaj je samo za kratko analizo oz. testiranje (koliko je poz, neg, neutr twitov)
+
 correct = 0
-incorrect = 1
+incorrect = 0
 for tweet in tweets:
     sentiment = textBlob.get_txt_sentiment(tweet['text']);
-    if(sentiment[0] == tweet['reacton']):
+    if(sentiment[0] == tweet['reacton'] and tweet['reacton'] != ""):
+        print("correct: " + sentiment[0]+ " original: "+tweet['reacton'])
         correct+=1;
-    else:
+    elif(tweet['reacton'] != ""):
+        print("incorrect: "+sentiment[0]+ " original: "+tweet['reacton'])
         incorrect+=1
 print("correct: ",correct," incorrect:", incorrect)
 
-
+'''
+pos = 0
+neg = 0
+neut = 0
+i=0
+for tweet in tweets:
+    if(tweet['reacton'] == "neutral"):
+        neut+=1
+    elif (tweet['reacton'] == "positive"):
+        pos+=1
+    elif (tweet['reacton'] == "negative"):
+        neg+=1
+    elif(tweet['reacton'] == ""):
+        continue
+    i+=1
+print("positive: ",pos,"negative: ",neg," neutral: ",neut)
+print(i)
+'''
 #V podano datoteko zapiše analizirane podake
 #with open('AnaliziraniPodatki/01.01.2017 - 01.01.2019/'+fileName, newline='', mode='w',encoding="utf8") as file:
 #    file_writer = csv.writer(file, delimiter=';',quotechar='"', quoting=csv.QUOTE_MINIMAL)

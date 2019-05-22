@@ -1,0 +1,7 @@
+positive:  14 negative:  8  neutral:  24  ++++++ skupno št: 46
+star klasifikator:
+	correct:  24  incorrect: 22 = 0,52
+Nov klasifikator (Bayes):
+	correct:  21  incorrect: 25 --- if(analysis.sentiment.p_pos > 0.40 and analysis.sentiment.p_neg > 0.40): 0,45
+	correct:  22  incorrect: 24 --- if(analysis.sentiment.p_pos >= 0.35 and analysis.sentiment.p_neg >= 0.35): 0,47
+	correct:  22  incorrect: 24 --- if(analysis.sentiment.p_pos >= 0.30 and analysis.sentiment.p_neg >= 0.30): 0,47
