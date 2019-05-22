@@ -26,6 +26,7 @@ with open('podatki/TestAnalysis/'+fileName, newline='',encoding="utf8") as csvfi
 
 correct = 0
 incorrect = 0
+count = 0
 for tweet in tweets:
     sentiment = textBlob.get_txt_sentiment(tweet['text']);
     if(sentiment[0] == tweet['reacton'] and tweet['reacton'] != ""):
@@ -62,3 +63,7 @@ print(i)
 #        sentiment = textBlob.get_txt_sentiment(tweet['text'])
 #        file_writer.writerow([tweet['date'],tweet['retweets'],tweet["favorites"],tweet["text"],sentiment[0],sentiment[1][0],sentiment[1][1]])
  #   employee_writer.writerow(['John Smith', 'Accounting', 'November'])
+
+count+=1
+print("correct: ",correct," incorrect:", incorrect, "All test cases:",count)
+print("result: ", correct/count)

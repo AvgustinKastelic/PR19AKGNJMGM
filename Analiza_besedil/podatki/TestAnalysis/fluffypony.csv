@@ -45,19 +45,19 @@ username;date;retweets;favorites;text;geo;mentions;hashtags;id;permalink
 ;2018-12-31 00:27;0;2;"Core has some meetings on IRC and transcripts are here https://bitcoincore.org/en/meetings/ Not sure about other implementations. Most chatter happens on IRC or the mailing list.";"neutral"
 ;2018-12-30 23:16;19;52;"Final Round! Facebook's digital currency should be colloquially called:";"positive"
 ;2018-12-30 21:53;28;163;"Bitcoin Wishlist for 2019: Fungibility SegWit on @ blockchain Anything from my 2016 list:https://twitter.com/lopp/statuses/728007294810763264 …";"neutral"
-;2018-12-30 20:36;10;63;". @ TheBlueMatt's Bitcoin Relay Network (2016) vs his FIBRE Network (2018) Old: many blocks required > 100KB to transmit, > 200ms to relay New: Almost all blocks require < 100KB to transmit, < 200ms to relay Block size is no longer strongly correlated w/relay times or data on wire.pic.twitter.com/NWt6Wn5IYn";
-;2018-12-30 19:36;0;2;"Right - segwit, batching, lightning. It's not really up to the user to make decisions about these things - it's up to companies and developers to guide users to the best practices. If they don't, the economics will force them.";
-;2018-12-30 19:34;0;0;"Here's what I see when I zoom in... I may have found a bug in your UI, @ coindesk @ pete_rizzo_pic.twitter.com/5VNSNsTFzP";
-;2018-12-30 19:30;370;1224;"Bitcoin average DAILY value change during: 2010: +0.82% 2011: +0.76% 2012: +0.26% 2013: +1.11% 2014: -0.25% 2015: +0.09% 2016: +0.22% 2017: +0.78% 2018: -0.33%";
-;2018-12-30 19:29;8;95;"I deleted this tweet because the 2017 metric was calculated from incorrect exchange rate data. Corrected tweet coming up...pic.twitter.com/YpjjxmveBq";
-;2018-12-30 19:20;0;1;"Once demand exceeds block space, competition heats up and raising fees incentivize users to make more efficient use of block space.";
-;2018-12-30 19:04;0;4;"Hmmmmm then @ coindesk's BPI is very wrong...https://www.coindesk.com/price/bitcoin";
-;2018-12-30 18:54;0;19;"So... we offered a Proof of Reserves feature at @ BitGo for a while but it never got much traction. I think a major reason for that is that without a Proof of Liabilities it doesn't result in Proof of Solvency.";
-;2018-12-30 18:11;0;4;"Hmmmm how are our 2017 numbers so different? I used a starting value of $3650 and ending value of $13800. 3650*(1.00365^365) = 13800";
-;2018-12-30 15:55;1;3;"Sure, check out the first chart on http://bitcoinfibre.org/stats.html and read the "speed of light" description.";
-;2018-12-30 15:36;22;87;"Comparing @ TheBlueMatt's Bitcoin Relay Network (2016) vs his FIBRE Network (2018) On the old network, 90% of blocks traversed it in under 570ms On the new network, 90% of blocks traversed it in under 141ms (purple line is T5)pic.twitter.com/0IoRPk52Zv";
-;2018-12-30 05:19;0;5;"So you're saying the growth potential is over 100X!";
-;2018-12-30 00:09;1;1;"This one? I don't think it's this one because their protocol uses a BCP prefix and uses 35 bytes whereas this usage is nearly 80 bytes. https://equitybits.s3.amazonaws.com/white_paper.pdf";
-;2018-12-29 23:23;14;56;"Can anyone tell me what OP_RETURN based protocol is creating outputs like this? They have become the highest volume of OP_RETURN outputs recently...https://blockstream.info/tx/92d96ca8008562ceb41db4cad36d65f7106b480770943f007cc9429239ccf68d#expand …";
-;2018-12-29 20:25;440;1084;"The number of Bitcoin ATMs doubled to 4,000 in 2018, continuing a 3 year trend of 100% year over year growth.pic.twitter.com/mfYDxxkT1l";
-;2018-12-29 15:51;0;9;"Will there be lambos and scantily clad booth babes?";
+;2018-12-30 20:36;10;63;". @ TheBlueMatt's Bitcoin Relay Network (2016) vs his FIBRE Network (2018) Old: many blocks required > 100KB to transmit, > 200ms to relay New: Almost all blocks require < 100KB to transmit, < 200ms to relay Block size is no longer strongly correlated w/relay times or data on wire.pic.twitter.com/NWt6Wn5IYn";"positive"
+;2018-12-30 19:36;0;2;"Right - segwit, batching, lightning. It's not really up to the user to make decisions about these things - it's up to companies and developers to guide users to the best practices. If they don't, the economics will force them.";"neutral"
+;2018-12-30 19:34;0;0;"Here's what I see when I zoom in... I may have found a bug in your UI, @ coindesk @ pete_rizzo_pic.twitter.com/5VNSNsTFzP";"neutral"
+;2018-12-30 19:30;370;1224;"Bitcoin average DAILY value change during: 2010: +0.82% 2011: +0.76% 2012: +0.26% 2013: +1.11% 2014: -0.25% 2015: +0.09% 2016: +0.22% 2017: +0.78% 2018: -0.33%";"neutral"
+;2018-12-30 19:29;8;95;"I deleted this tweet because the 2017 metric was calculated from incorrect exchange rate data. Corrected tweet coming up...pic.twitter.com/YpjjxmveBq";"neutral"
+;2018-12-30 19:20;0;1;"Once demand exceeds block space, competition heats up and raising fees incentivize users to make more efficient use of block space.";"positive"
+;2018-12-30 19:04;0;4;"Hmmmmm then @ coindesk's BPI is very wrong...https://www.coindesk.com/price/bitcoin";"negative"
+;2018-12-30 18:54;0;19;"So... we offered a Proof of Reserves feature at @ BitGo for a while but it never got much traction. I think a major reason for that is that without a Proof of Liabilities it doesn't result in Proof of Solvency.";"neutral"
+;2018-12-30 18:11;0;4;"Hmmmm how are our 2017 numbers so different? I used a starting value of $3650 and ending value of $13800. 3650*(1.00365^365) = 13800";"neutral"
+;2018-12-30 15:55;1;3;"Sure, check out the first chart on http://bitcoinfibre.org/stats.html and read the "speed of light" description.";"neutral"
+;2018-12-30 15:36;22;87;"Comparing @ TheBlueMatt's Bitcoin Relay Network (2016) vs his FIBRE Network (2018) On the old network, 90% of blocks traversed it in under 570ms On the new network, 90% of blocks traversed it in under 141ms (purple line is T5)pic.twitter.com/0IoRPk52Zv";"neutral"
+;2018-12-30 05:19;0;5;"So you're saying the growth potential is over 100X!";"positive"
+;2018-12-30 00:09;1;1;"This one? I don't think it's this one because their protocol uses a BCP prefix and uses 35 bytes whereas this usage is nearly 80 bytes. https://equitybits.s3.amazonaws.com/white_paper.pdf";"negative"
+;2018-12-29 23:23;14;56;"Can anyone tell me what OP_RETURN based protocol is creating outputs like this? They have become the highest volume of OP_RETURN outputs recently...https://blockstream.info/tx/92d96ca8008562ceb41db4cad36d65f7106b480770943f007cc9429239ccf68d#expand …";"neutral"
+;2018-12-29 20:25;440;1084;"The number of Bitcoin ATMs doubled to 4,000 in 2018, continuing a 3 year trend of 100% year over year growth.pic.twitter.com/mfYDxxkT1l";"positive"
+;2018-12-29 15:51;0;9;"Will there be lambos and scantily clad booth babes?";"neutral"
